@@ -1,0 +1,23 @@
+header.Header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 10px;
+  height: 70px;
+  gap: 20px;
+}
+
+main.container{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.btn-adicionar{
+  background: none;
+  border: 1px solid #FFFFFF;
+  width: 130px;
+}

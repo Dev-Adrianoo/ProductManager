@@ -1,0 +1,66 @@
+
+div.container{
+  height: 100%;
+}
+
+.style-tabela {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.tabelaProdutos{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-tabela td, .style-tabela th {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.style-tabela tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.style-tabela th {
+  background-color: #333333;
+  color: white;
+  font-weight: bold;
+}
+
+.style-tabela td {
+  font-size: 14px;
+  color: #333333;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  margin: 0 10px;
+  background-color: #333333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.botoes .btn:hover {
+  background-color: #555555;
+}
+
+.botoes .btn:active {
+  background-color: #222222;
+}
+
+.style-tabela tr.no-products {
+  font-style: italic;
+  color: #888888;
+}
