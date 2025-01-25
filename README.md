@@ -112,7 +112,7 @@ Passos
 
 Clone o repositório:
 
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/Dev-Adrianoo/ProductManager
 
 Instale as dependências:
 
@@ -136,7 +136,7 @@ Inicie o servidor:
 npm run dev
 
 Acesse a aplicação:
-Abra o navegador e vá para http://localhost:3000.
+Abra o navegador e vá para...  (em progresso).
 
 Como Contribuir
 
