@@ -13,6 +13,7 @@ export async function PUT(request: Request) {
     if (!productId) {
       return new Response("ID do produto não fornecido", { status: 400 });
     }
+
     console.log(productId)
 
     const { nome_produto, quantidade, Valor } = await request.json();
@@ -48,7 +49,7 @@ export async function PUT(request: Request) {
     return new Response(JSON.stringify(updatedProduct), { status: 200 });
 
   } catch (error: unknown) {
-    // Tratamento de erro
+    
     if (error instanceof Error) {
       console.log(error.message);
       return new Response("Erro ao atualizar produto", { status: 500 });

@@ -3,7 +3,7 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 export async function DELETE(request: Request, context: { params: { id: string } }) {
-  const { id } = context.params
+  const { id } = context.params; 
 
   if (!id) {
     return new Response("ID do produto não fornecido", { status: 400 });
@@ -11,8 +11,9 @@ export async function DELETE(request: Request, context: { params: { id: string }
 
   try {
     const product = await prisma.produtos.findUnique({
-      where: { id: parseInt(id, 10) }
+      where: { id: parseInt(id, 10) },
     });
+    
 
     if (!product) {
       return new Response("Produto não encontrado", { status: 404 });

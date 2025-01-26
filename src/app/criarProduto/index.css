@@ -1,0 +1,15 @@
+.containerProduto{
+  background-image: url(/Dark_Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containerProduto button {
+  background-color: #000000;
+  border: none;
+  font-size: 17px;
+}
+
+input {
+  border-radius: 4px;
+}

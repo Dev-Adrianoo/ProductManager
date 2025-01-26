@@ -82,8 +82,8 @@ div.containerProduto{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
   height: 100%;
+  color: #ffffff;
 }
 
 div.AdicionarProduto{
@@ -122,6 +122,12 @@ div.tabelaProdutos{
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+form {
+  background-color: #ffffff9e;
+  color: black;
+  border-radius: 4px;
 }
 
 

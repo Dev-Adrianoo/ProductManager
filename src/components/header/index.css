@@ -2,7 +2,7 @@ header.Header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333333;
+  background-color: #2E2F2E;
   color: #FFFFFF;
   padding: 10px;
   height: 70px;
@@ -20,4 +20,8 @@ button.btn-adicionar{
   background: none;
   border: 1px solid #FFFFFF;
   width: 130px;
+}
+
+input{
+  color: white;
 }

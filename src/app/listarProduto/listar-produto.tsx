@@ -38,8 +38,8 @@ export default function ListarProduto() {
 
   return (
     <div className="container">
-      <h1>Listando os produtos</h1>
       <div className="tabelaProdutos">
+      <h1>Listando os produtos</h1>
         <div className="style-tabela">
           {products.length > 0 ? (
             <table>

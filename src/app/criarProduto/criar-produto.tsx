@@ -1,5 +1,7 @@
 "use client"
 
+import "./index.css"
+
 import axios from "axios"
 import React, { useState, useEffect } from "react"
 

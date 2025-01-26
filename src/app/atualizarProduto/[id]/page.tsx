@@ -4,6 +4,7 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { useParams, useRouter } from 'next/navigation'
+import "../index.css"
 
 interface ProductType {
   id: number
@@ -58,42 +59,43 @@ export default function AtualizarProduto() {
   if (!product) return <div>Carregando...</div>
 
   return (
-    <div className="container">
+    <div className="container container-background">
+      <form onSubmit={handleUpdate} className='formAtualizarProduto'>
       <h1>Atualizar Produto</h1>
-      <form onSubmit={handleUpdate}>
         <div>
-          <label htmlFor="nome_produto">Nome do Produto</label>
+          <label htmlFor="nome_produto"> </label>
           <input
             type="text"
             id="nome_produto"
             value={product.nome_produto}
             onChange={(e) => setProduct({ ...product, nome_produto: e.target.value })}
+            placeholder='Nome Produto'
             required
           />
         </div>
         <div>
-          <label htmlFor="quantidade">Quantidade</label>
+          <label htmlFor="quantidade"></label>
           <input
             type="number"
             id="quantidade"
             value={product.quantidade}
             onChange={(e) => setProduct({ ...product, quantidade: +e.target.value })}
-            placeholder='quantidade'
+            placeholder='Quantidade em estoque'
             required
           />
         </div>
         <div>
-          <label htmlFor="Valor">Valor</label>
+          <label htmlFor="Valor"></label>
           <input
             type="number"
             id="Valor"
             value={product.Valor}
             onChange={(e) => setProduct({ ...product, Valor: +e.target.value })}
-            placeholder='valor'
+            placeholder='Valor'
             required
           />
         </div>
-        <button type="submit">Atualizar</button>
+        <button type="submit" className='btn'>Atualizar</button>
       </form>
     </div>
   )

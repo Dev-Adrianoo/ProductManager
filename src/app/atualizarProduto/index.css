@@ -1,5 +1,13 @@
 div.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   height: 100%;
+}
+
+.container-background{
+  background-image: url("/Dark_Background.png");
 }
 
 .style-tabela {
@@ -61,4 +69,26 @@ div.tabelaProdutos {
 .style-tabela tr.no-products {
   font-style: italic;
   color: #888888;
+}
+
+form.formAtualizarProduto{
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.295);
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 10px;
+  color: #FFFF;
+  font-weight: bold;
+}
+
+form.forAtualizarProduto h1 {
+  margin-bottom: 20px;
+}
+
+form.formAtualizarProduto input {
+  width: 200px;
+  border-radius: 4px;
 }
