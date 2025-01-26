@@ -1,7 +1,7 @@
-<h1>Projeto Gestão de Estoque</h1>
-<h2>Objetivo Do Projeto: </h2>
+<h1>Projeto Gestão de Estoque 📦 </h1>
+<h2>Objetivo Do Projeto 🎯 </h2>
 <p>"Desenvolver um sistema de gestão de estoque com funcionalidades para adicionar, remover, atualizar e listar produtos. O sistema permitirá o controle eficiente dos produtos armazenados, com a capacidade de registrar entradas e saídas de itens, atualizar as informações dos produtos conforme necessário e gerar relatórios detalhados para facilitar a administração e tomada de decisões."</p>
-<h2>Tecnologias Utilizadas</h2>
+<h2>Tecnologias Utilizadas 💻 </h2>
 <ul> 
   <li>
     <strong><a href="https://nextjs.org/docs">Next.js</a></strong>: Framework baseado em React que oferece renderização do lado do cliente e do servidor, otimizando o desempenho da aplicação.</li>
@@ -20,7 +20,7 @@
     <strong><a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS</a></strong>: Usado para estilizar a aplicação e criar uma interface visual atraente e funcional.</li> 
 </ul>
 
-<h2>Estrutura do Projeto</h2>
+<h2>Estrutura do Projeto 📂</h2>
 <ul>
     <li><code>/public</code></li>
     <li><code>/app</code>
@@ -42,7 +42,7 @@
     <li><code>/global.css</code> - Estilos globais da aplicação</li>
 </ul>
 
-<h2>Configuração com Prisma</h2>
+<h2>Configuração com Prisma 🛠️</h2>
 <p>O <strong>Prisma</strong> foi configurado para gerenciar o banco de dados <strong>MySQL</strong>. Ele facilita a criação de esquemas e a realização de operações no banco de dados.</p>
 
 <pre><code>model Produtos {
@@ -55,7 +55,7 @@
 }
 </code></pre>
 
-<h2>Como Executar o Projeto</h2>
+<h2>Como Executar o Projeto 🏃‍♂️</h2>
 <ol>
     <li>Clone o repositório:
         <pre><code>git clone https://github.com/Dev-Adrianoo/ProductManager</code></pre>
@@ -79,7 +79,7 @@
     <p><code>http://localhost:3000</code></p>
 </ol>
 
-<h2>Como Contribuir</h2>
+<h2>Como Contribuir 🤝 </h2>
 <ol>
     <li>Faça um fork deste repositório.</li>
     <li>Crie um branch para sua feature/bugfix:
@@ -94,10 +94,10 @@
     <li>Abra um Pull Request.</li>
 </ol>
 
-<h2>Autor</h2>
+<h2>Autor 👨‍💻</h2>
 <p>Este projeto foi desenvolvido por <strong>Adriano Souza</strong>. Caso tenha dúvidas ou sugestões, sinta-se à vontade para entrar em contato.</p>
 
-<h2>Licença</h2>
+<h2>Licença 📜</h2>
 <p>Este projeto é licenciado sob a <strong>MIT License</strong>.</p>
 
 
