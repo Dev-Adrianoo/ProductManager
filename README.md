@@ -79,7 +79,7 @@
     <p><code>http://localhost:3000</code></p>
 </ol>
 
-<h2>Como Contribuir 🤝 </h2>
+<h2>Deseja contribuir ? 🤝 </h2>
 <ol>
     <li>Faça um fork deste repositório.</li>
     <li>Crie um branch para sua feature/bugfix:
