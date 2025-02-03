@@ -1,6 +1,6 @@
 <h1>Projeto Gestão de Estoque 📦 </h1>
 <h2>Objetivo Do Projeto 🎯 </h2>
-<p>"Desenvolver um sistema de gestão de estoque com funcionalidades para adicionar, remover, atualizar e listar produtos. O sistema permitirá o controle eficiente dos produtos armazenados, com a capacidade de registrar entradas e saídas de itens, atualizar as informações dos produtos conforme necessário e gerar relatórios detalhados para facilitar a administração e tomada de decisões."</p>
+<p>"Desenvolver um sistema de gestão de estoque com funcionalidades para adicionar, remover, atualizar e listar produtos. O sistema permitirá o controle eficiente dos produtos armazenados, com a capacidade de registrar entradas e saídas de itens"</p>
 <h2>Tecnologias Utilizadas 💻 </h2>
 <ul> 
   <li>
